@@ -260,6 +260,7 @@ body {margin: 0;}
     margin-bottom: 4vh;
 }
 .video {
+    border: black solid 0px;
     border-radius: 6px; 
     width: 1120px;
     height: 630px;
