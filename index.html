@@ -19,6 +19,7 @@
 </head>
 
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Вернуться к началу страницы">Наверх</button>
     <header>
         <ol class="nav_container">
             <li class="nav">
@@ -404,6 +405,21 @@
         function play() {
             var audio = document.getElementById("video");
             audio.play();
+        }
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         }
     </script>
 </body>

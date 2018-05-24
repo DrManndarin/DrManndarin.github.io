@@ -150,7 +150,29 @@ body {margin: 0;}
     transition: all 0.5s ease;
 }
 /*Контейеры и остальное*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 3px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #cbc5c0;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+    transition: all 0.5s;
+  }
+  
+  #myBtn:hover {
+    background-color: #b55215;
+    color: white;
+  }
 .button{
+    cursor: pointer;
     text-align: center;
     position: relative;
     margin: auto;
@@ -162,6 +184,7 @@ body {margin: 0;}
     height: 30px;
     border: none;
     transition: all 0.5s ease;
+    font-weight: 500;
 }
 .bonus_container {
     background-color: #cbc5c0;
@@ -182,6 +205,7 @@ body {margin: 0;}
 .arsenal {
     box-shadow: 0px 2px 12px 4px #221e1d;
     border-radius: 7px;
+    width: 80%;
 
 }
 .img_inline {
