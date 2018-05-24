@@ -151,8 +151,11 @@ body {margin: 0;}
 }
 /*Контейеры и остальное*/
 .button{
+    text-align: center;
+    position: relative;
+    margin: auto;
     padding: 0;
-    width: 100%;
+    width: 95vw;
     background-color: #cbc5c0;
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
