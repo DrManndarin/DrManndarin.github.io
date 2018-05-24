@@ -28,7 +28,7 @@ h3 {font-size: 1.7rem; color: #b55215; left: 5%; position: relative; padding: 5p
     .nav:hover{
         background-color: rgb(43, 38, 38);
     }
-    .sub_nav:hover{
+    .sub_nav:hover, .button:hover{
         background-color: #b4ada6;
     }
     .title::after{
@@ -150,6 +150,16 @@ body {margin: 0;}
     transition: all 0.5s ease;
 }
 /*Контейеры и остальное*/
+.button{
+    padding: 0;
+    width: 100%;
+    background-color: #cbc5c0;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    height: 30px;
+    border: none;
+    transition: all 0.5s ease;
+}
 .bonus_container {
     background-color: #cbc5c0;
     border-radius: 4px;
