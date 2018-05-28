@@ -150,10 +150,14 @@ body {margin: 0;}
     transition: all 0.5s ease;
 }
 /*Контейеры и остальное*/
+#egg {
+    color: #574e46;
+    padding: 0;
+}
 #myBtn {
     display: none;
     position: fixed;
-    bottom: 20px;
+    top: 8.5vh;
     left: 3px;
     z-index: 99;
     font-size: 18px;
