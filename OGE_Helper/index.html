@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang=ru>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8">
+    <title>Подкотовка к ОГЭ онлайн</title>
+
+    <style>
+
+        #back {
+            left: 0;
+        }
+
+        #next {
+            right: 0;
+        }
+
+        #start{
+            display: block;
+            height: 61vh;
+        }
+
+        #lucky_container{
+            height: 10vh;
+            font-size: 3vh;
+            font-weight: 500;
+            transition: 0.2s ease-in-out;
+        }
+
+        #lucky_container a{
+            text-shadow: 1px 1px 10px grey;
+            text-decoration: none;
+            color:black;
+        }
+        #lucky_container:hover{
+            box-shadow:  0px 5px 10px grey;
+            background-color: white;
+            border:  4px solid rgb(49, 49, 49);
+            cursor: pointer;
+        }
+        #email{
+            text-decoration: none;
+            color: aliceblue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="circle"></div>
+        <h1>ОГЭ-Помощник</h1>
+    </header>
+
+    <MAIN>
+        <div class="menu_opener">
+            <div class="menu_scroll" id="back"> < </div>
+            <div class="menu_button pos0" id="slide1" data-subj_id=0>Русский язык </div>
+            <div class="menu_button pos1" id="slide2" data-subj_id=1>Математика</div>
+            <div class="menu_button pos2" id="slide3" data-subj_id=2>Биология</div>
+            <div class="menu_button pos3" id="slide4" data-subj_id=3>Английский язык</div>
+            <div class="menu_button pos4" id="slide5" data-subj_id=4>Физика</div>
+            <div class="menu_button pos5" id="slide6" data-subj_id=5>Обществознание</div>
+            <div class="menu_button pos6" id="slide7" data-subj_id=6>Литература</div>
+            <div class="menu_button pos7" id="slide8" data-subj_id=7>Химия</div>
+            <div class="menu_button pos8" id="slide9" data-subj_id=8>История</div>
+            <div class="menu_button pos9" id="slide10" data-subj_id=9>География</div>
+            <div class="menu_button pos10" id="slide11" data-subj_id=10>Информатика</div>
+            <div class="menu_scroll" id="next" > > </div>
+        </div>
+        <br><br>
+        <article id="start">
+            <br><br>
+            Для начала подготовки, выберете ваш предмет!
+            <br><br><br>
+        </article>
+        <article id="subj0">
+            <h2 class="article_name">Русский язык</h2>
+            <div class="article_text_container">
+                <div class="sub_article">
+                    <a class="cite_name" href="https://www.examen.ru/tests/oge/russkij-yazyik">examen.ru</a>
+                    <p class="cite_description">
+                        Содержит матермалы по подготовке к ОГЭ и ЕГЭ, а так же позваляет закреплять школьные знания с
+                        помощью тестов.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="https://rus-oge.sdamgia.ru/">sdamgia.ru</a>
+                    <p class="cite_description">
+                        Содержит тренировочные варианты экзамена, каталог заданий с возможностью поиска, дополнительные
+                        материалы для подготовки, и еще много всего.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://4ege.ru/gia-po-russkomu-jazyku/">4ege.ru</a>
+                    <p class="cite_description">
+                        одержит демоверсии вариантов, их разборы и новостную ленту для отслеживания информации об
+                        экзамене
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="https://neznaika.pro/oge/rus_oge/">neznaika.pro</a>
+                    <p class="cite_description">
+                        Содержит множество структурированных тестов и небольшой интерактив для поддержания интереса.
+                        Наверное, самый удобный в использовании сайт.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://yagramotniy.ru/samoobuchenie/podgotovka-k-oge">yagramotniy.ru</a>
+                    <p class="cite_description">
+                        Содержит разбор и технику выполнения всех заданий в экзамене. Не сложно догадаться по названию
+                        сайта, что он может “подтянуть” вашу грамотность).
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://rustutors.ru/oge.html">rustutors.ru</a>
+                    <p class="cite_description">
+                        Содержит разборы и алгоритмы выполнения заданий в экзамене.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://xn--80aff1fya.xn--p1ai/news/rus_oge/2015-06-02-215">егеша.рф</a>
+                    <p class="cite_description">
+                        Сайт представляет краткую информацию по всем основным и наиболее важным темам. Под термином
+                        «шпаргалка» здесь подразумевается лаконичная информация, которую легко усвоить). Помните: лучше
+                        каждый день учить понемногу материала и со спокойной душой войти в свою аудиторию, чем
+                        рисковать жизнью, пытаясь взять с собой шпору.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://85.142.162.126/os/xmodules/qprint/openlogin.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416">fipi.ru</a>
+                    <p class="cite_description">
+                        ФИПИ - сайт, про который, наверное, говорил каждый учитель. Описывать его нет необходимости.
+                    </p>
+                </div>
+
+            </div>
+        </article>
+
+        <article id="subj1">
+            <h2 class="article_name">Математика</h2>
+            <div class="article_text_container">
+                <div class="sub_article">
+                    <a class="cite_name" href="https://math-oge.sdamgia.ru/">sdamgia.ru</a>
+                    <p class="cite_description">
+                        Содержит тренировочные варианты экзамена, каталог заданий с возможностью поиска, дополнительные
+                        материалы для подготовки, и еще много всего.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://4ege.ru/gia-matematika/">4ege.ru</a>
+                    <p class="cite_description">
+                        Содержит демоверсии вариантов, их разборы и новостную ленту для отслеживания информации об
+                        экзамене.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="https://neznaika.pro/oge/math_oge/">neznaika.pro</a>
+                    <p class="cite_description">
+                        Содержит множество структурированных тестов и небольшой интерактив для поддержания интереса.
+                        Наверное, самый удобный в использовании сайт.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://xn--80aff1fya.xn--p1ai/news/gia_mat/2013-02-05-145">егеша.рф</a>
+                    <p class="cite_description">
+                        Сайт представляет краткую информацию по всем основным и наиболее важным темам. Под термином
+                        «шпаргалка» здесь подразумевается лаконичная информация, которую легко усвоить). Помните: лучше
+                        каждый день учить понемногу материала и со спокойной душой войти в свою аудиторию, чем
+                        рисковать жизнью, пытаясь взять с собой шпору.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://85.142.162.126/os/xmodules/qprint/openlogin.php?proj=DE0E276E497AB3784C3FC4CC20248DC0">fipi.ru</a>
+                    <p class="cite_description">
+                        ФИПИ - Сайт, про который, наверное, говорил каждый учитель. Описывать его нет необходимости.
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <article id="subj5">
+            <h2 class="article_name">Обществознание</h2>
+            <div class="article_text_container">
+                <div class="sub_article">
+                    <a class="cite_name" href="https://soc-oge.sdamgia.ru/">sdamgia.ru</a>
+                    <p class="cite_description">
+                        Содержит тренировочные варианты экзамена, каталог заданий с возможностью поиска, дополнительные
+                        материалы для подготовки, и еще много всего.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://4ege.ru/gia-po-obwestvoznaniju/">4ege.ru</a>
+                    <p class="cite_description">
+                        Содержит демоверсии вариантов, их разборы и новостную ленту для отслеживания информации об
+                        экзамене.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="https://neznaika.pro/oge/obch_oge/">neznaika.pro</a>
+                    <p class="cite_description">
+                        Содержит множество структурированных тестов и небольшой интерактив для поддержания интереса.
+                        Наверное, самый удобный в использовании сайт.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://xn--80aff1fya.xn--p1ai/news/ob_oge/2015-05-28-212">егеша.рф</a>
+                    <p class="cite_description">
+                        Сайт представляет краткую информацию по всем основным и наиболее важным темам. Под термином
+                        «шпаргалка» здесь подразумевается лаконичная информация, которую легко усвоить). Помните: лучше
+                        каждый день учить понемногу материала и со спокойной душой войти в свою аудиторию, чем
+                        рисковать жизнью, пытаясь взять с собой шпору.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://85.142.162.126/os/xmodules/qprint/openlogin.php?proj=AE63AB28A2D28E194A286FA5A8EB9A78 ">fipi.ru</a>
+                    <p class="cite_description">
+                        ФИПИ - Сайт, про который, наверное, говорил каждый учитель. Описывать его нет необходимости.
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <article id="subj9">
+            <h2 class="article_name">География</h2>
+            <div class="article_text_container">
+                <div class="sub_article">
+                    <a class="cite_name" href="https://geo-oge.sdamgia.ru/">sdamgia.ru</a>
+                    <p class="cite_description">
+                        Содержит тренировочные варианты экзамена, каталог заданий с возможностью поиска, дополнительные
+                        материалы для подготовки, и еще много всего.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://4ege.ru/gia-po-geografii/">4ege.ru</a>
+                    <p class="cite_description">
+                        Содержит демоверсии вариантов, их разборы и новостную ленту для отслеживания информации об
+                        экзамене.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="https://neznaika.pro/oge/geo_oge/">neznaika.pro</a>
+                    <p class="cite_description">
+                        Содержит множество структурированных тестов и небольшой интерактив для поддержания интереса.
+                        Наверное, самый удобный в использовании сайт.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://xn--80aff1fya.xn--p1ai/news/oge_geo/2016-06-04-240">егеша.рф</a>
+                    <p class="cite_description">
+                        Сайт представляет краткую информацию по всем основным и наиболее важным темам. Под термином
+                        «шпаргалка» здесь подразумевается лаконичная информация, которую легко усвоить). Содержит
+                        множество структурированных тестов и небольшой интерактив для поддержания интереса. Наверное,
+                        самый удобный в использовании сайт.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://85.142.162.126/os/xmodules/qprint/openlogin.php?proj=0FA4DA9E3AE2BA1547B75F0B08EF6445">fipi.ru</a>
+                    <p class="cite_description">
+                        ФИПИ - сайт, про который, наверное, говорил каждый учитель. Описывать его нет необходимости.
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <article id="subj10">
+            <h2 class="article_name">Информатика</h2>
+            <div class="article_text_container">
+                <div class="sub_article">
+                    <a class="cite_name" href=" https://inf-oge.sdamgia.ru/">sdamgia.ru</a>
+                    <p class="cite_description">
+                        Содержит тренировочные варианты экзамена, каталог заданий с возможностью поиска, дополнительные
+                        материалы для подготовки, и еще много всего.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://4ege.ru/gia-po-informatike/">4ege.ru</a>
+                    <p class="cite_description">
+                        Содержит демоверсии вариантов, их разборы и новостную ленту для отслеживания информации об
+                        экзамене.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="https://neznaika.pro/oge/inf_oge/">neznaika.pro</a>
+                    <p class="cite_description">
+                        Содержит множество структурированных тестов и небольшой интерактив для поддержания интереса.
+                        Наверное, самый удобный в использовании сайт.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://xn--80aff1fya.xn--p1ai/news/oge_inf/2016-05-25-238">егеша.рф</a>
+                    <p class="cite_description">
+                        Сайт представляет краткую информацию по всем основным и наиболее важным темам. Под термином
+                        «шпаргалка» здесь подразумевается лаконичная информация, которую легко усвоить). Помните: лучше
+                        каждый день учить понемногу материала и со спокойной душой войти в свою аудиторию, чем
+                        рисковать жизнью, пытаясь взять с собой шпору.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://kpolyakov.spb.ru/school/oge.htm">kpolyakov.spb.ru</a>
+                    <p class="cite_description">
+                        Содержит список полезной литературы для подготовки к экзамену, тесты, генератор тренировочных
+                        заданий. Еще здесь можно посмотреть уроки по различным программам (Photoshop, Flash, например)
+                        и языкам программирования и кодировки (HTML, язык Си, например).
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://easyinformatics.ru/category/oge">easyinformatics.ru</a>
+                    <p class="cite_description">
+                        Содержит решения задач, представленных на сайте ФИПИ.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://85.142.162.126/os/xmodules/qprint/openlogin.php?proj=74676951F093A0754D74F2D6E7955F06">fipi.ru</a>
+                    <p class="cite_description">
+                        ФИПИ - Сайт, про который, наверное, говорил каждый учитель. Описывать его нет необходимости.
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <article id="subj3">
+            <h2 class="article_name">Английский язык</h2>
+            <div class="article_text_container">
+                <div class="sub_article">
+                    <a class="cite_name" href="https://en-oge.sdamgia.ru/">en-oge.sdamgia.ru</a>
+                    <p class="cite_description">
+                        Содержит тренировочные варианты экзамена, каталог заданий с возможностью поиска, дополнительные
+                        материалы для подготовки, и еще много всего.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="https://neznaika.pro/oge/eng_oge/">neznaika.pro</a>
+                    <p class="cite_description">
+                        Содержит множество структурированных тестов и небольшой интерактив для поддержания интереса.
+                        Наверное, самый удобный в использовании сайт.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://zhilina-english.ru/oge/">zhilina-english.ru</a>
+                    <p class="cite_description">
+                        Содержит 14 полезных статей, которые помогут сдать экзамены. Так же, здесь можно узнать о
+                        различных нюансах сдачи экзамена.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://xn--80aff1fya.xn--p1ai/news/gia_angl/2013-04-26-152">егеша.рф</a>
+                    <p class="cite_description">
+                        Сайт представляет краткую информацию по всем основным и наиболее важным темам. Под термином
+                        «шпаргалка» здесь подразумевается лаконичная информация, которую легко усвоить). Помните: лучше
+                        каждый день учить понемногу материала и со спокойной душой войти в свою аудиторию, чем
+                        рисковать жизнью, пытаясь взять с собой шпору.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://85.142.162.126/os/xmodules/qprint/openlogin.php?proj=8BBD5C99F37898B6402964AB11955663">fipi.ru</a>
+                    <p class="cite_description">
+                        Про сайт ФИПИ, наверное, говорил каждый учитель. Описывать его нет необходимости.
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <article id="subj2">
+            <h2 class="article_name">Биология</h2>
+            <div class="article_text_container">
+                <div class="sub_article">
+                    <a class="cite_name" href="https://bio-oge.sdamgia.ru/ ">bio-oge.sdamgia.ru</a>
+                    <p class="cite_description">
+                        Содержит тренировочные варианты экзамена, каталог заданий с возможностью поиска, дополнительные
+                        материалы для подготовки, и еще много всего.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://4ege.ru/gia-po-biologii/">4ege.ru</a>
+                    <p class="cite_description">
+                        Содержит демоверсии вариантов, их разборы и новостную ленту для отслеживания информации об
+                        экзамене.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href=" http://xn--80aff1fya.xn--p1ai/news/oge_bio/2016-06-05-241">егэша.рф</a>
+                    <p class="cite_description">
+                        Сайт представляет краткую информацию по всем основным и наиболее важным темам. Под термином
+                        «шпаргалка» здесь подразумевается лаконичная информация, которую легко усвоить). Помните: лучше
+                        каждый день учить понемногу материала и со спокойной душой войти в свою аудиторию, чем
+                        рисковать жизнью, пытаясь взять с собой шпору.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href=" http://85.142.162.126/os/xmodules/qprint/index.php?proj=0E1FA4229923A5CE4FC368155127ED90">fipi.ru</a>
+                    <p class="cite_description">
+                        Про сайт ФИПИ, наверное, говорил каждый учитель. Описывать его нет необходимости.
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <article id="subj4">
+            <h2 class="article_name">Физика</h2>
+            <div class="article_text_container">
+                <div class="sub_article">
+                    <a class="cite_name" href="https://phys-oge.sdamgia.ru/">sdamgia.ru</a>
+                    <p class="cite_description">
+                        Содержит тренировочные варианты экзамена, каталог заданий с возможностью поиска, дополнительные
+                        материалы для подготовки, и еще много всего.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://4ege.ru/gia-po-fizike/">4ege.ru</a>
+                    <p class="cite_description">
+                        Содержит демоверсии вариантов, их разборы и новостную ленту для отслеживания информации об
+                        экзамене.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href=" https://neznaika.pro/oge/phys_oge/">neznaika.pro</a>
+                    <p class="cite_description">
+                        Содержит множество структурированных тестов и небольшой интерактив для поддержания интереса.
+                        Наверное, самый удобный в использовании сайт.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href=" http://xn--80aff1fya.xn--p1ai/news/oge_fiz/2016-06-05-242">егеша.рф</a>
+                    <p class="cite_description">
+                        Сайт представляет краткую информацию по всем основным и наиболее важным темам. Под термином
+                        «шпаргалка» здесь подразумевается лаконичная информация, которую легко усвоить). Помните: лучше
+                        каждый день учить понемногу материала и со спокойной душой войти в свою аудиторию, чем
+                        рисковать жизнью, пытаясь взять с собой шпору.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://85.142.162.126/os/xmodules/qprint/openlogin.php?proj=B24AFED7DE6AB5BC461219556CCA4F9B">fipi.ru</a>
+                    <p class="cite_description">
+                        ФИПИ - Сайт, про который, наверное, говорил каждый учитель. Описывать его нет необходимости.
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <article id="subj8">
+            <h2 class="article_name">История</h2>
+            <div class="article_text_container">
+                <div class="sub_article">
+                    <a class="cite_name" href="https://hist-oge.sdamgia.ru/">sdamgia.ru</a>
+                    <p class="cite_description">
+                        Содержит тренировочные варианты экзамена, каталог заданий с возможностью поиска, дополнительные
+                        материалы для подготовки, и еще много всего.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://4ege.ru/gia-po-istorii/">4ege.ru</a>
+                    <p class="cite_description">
+                        Содержит демоверсии вариантов, их разборы и новостную ленту для отслеживания информации об
+                        экзамене.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="https://neznaika.pro/oge/hist_oge/">neznaika.pro</a>
+                    <p class="cite_description">
+                        Содержит множество структурированных тестов и небольшой интерактив для поддержания интереса.
+                        Наверное, самый удобный в использовании сайт.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://xn--80aff1fya.xn--p1ai/news/oge_ist/2016-06-04-239">егеша.рф</a>
+                    <p class="cite_description">
+                        Сайт представляет краткую информацию по всем основным и наиболее важным темам. Под термином
+                        «шпаргалка» здесь подразумевается лаконичная информация, которую легко усвоить). Помните: лучше
+                        каждый день учить понемногу материала и со спокойной душой войти в свою аудиторию, чем
+                        рисковать жизнью, пытаясь взять с собой шпору.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://85.142.162.126/os/xmodules/qprint/openlogin.php?proj=3CBBE97571208D9140697A6C2ABE91A0">fipi.ru</a>
+                    <p class="cite_description">
+                        ФИПИ - Сайт, про который, наверное, говорил каждый учитель. Описывать его нет необходимости.
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <article id="subj6">
+            <h2 class="article_name">Литература</h2>
+            <div class="article_text_container">
+                <div class="sub_article">
+                    <a class="cite_name" href="https://lit-oge.sdamgia.ru/">sdamgia.ru</a>
+                    <p class="cite_description">
+                        Содержит тренировочные варианты экзамена, каталог заданий с возможностью поиска, дополнительные
+                        материалы для подготовки, и еще много всего.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://4ege.ru/gia-po-literature/">4ege.ru</a>
+                    <p class="cite_description">
+                        Содержит демоверсии вариантов, их разборы и новостную ленту для отслеживания информации об
+                        экзамене.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="https://neznaika.pro/oge/lit_oge/">neznaika.pro</a>
+                    <p class="cite_description">
+                        Содержит множество структурированных тестов и небольшой интерактив для поддержания интереса.
+                        Наверное, самый удобный в использовании сайт.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://xn--80aff1fya.xn--p1ai/news/oge_iit/2015-05-28-210">егеша.рф</a>
+                    <p class="cite_description">
+                        Сайт представляет краткую информацию по всем основным и наиболее важным темам. Под термином
+                        «шпаргалка» здесь подразумевается лаконичная информация, которую легко усвоить). Помните: лучше
+                        каждый день учить понемногу материала и со спокойной душой войти в свою аудиторию, чем
+                        рисковать жизнью, пытаясь взять с собой шпору.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://literarus.ru/literatura/oge-po-literature/">literarus.ru</a>
+                    <p class="cite_description">
+                        Содержит список литературы к прочтению, варианты тестов, образцы и темы сочинений.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://85.142.162.126/os/xmodules/qprint/openlogin.php?proj=6B2CD4C77304B2A3478E5A5B61F6899A">fipi.ru</a>
+                    <p class="cite_description">
+                        ФИПИ - Сайт, про который, наверное, говорил каждый учитель. Описывать его нет необходимости.
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <article id="subj7">
+            <h2 class="article_name">Химия</h2>
+            <div class="article_text_container">
+                <div class="sub_article">
+                    <a class="cite_name" href="https://https://chem-oge.sdamgia.ru/">sdamgia.ru</a>
+                    <p class="cite_description">
+                        Содержит тренировочные варианты экзамена, каталог заданий с возможностью поиска, дополнительные
+                        материалы для подготовки, и еще много всего.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://4ege.ru/gia-po-himii/ ">4ege.ru</a>
+                    <p class="cite_description">
+                        Содержит демоверсии вариантов, их разборы и новостную ленту для отслеживания информации об
+                        экзамене.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="https://neznaika.pro/oge/chem_oge/ ">neznaika.pro</a>
+                    <p class="cite_description">
+                        Содержит множество структурированных тестов и небольшой интерактив для поддержания интереса.
+                        Наверное, самый удобный в использовании сайт.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="https://himi4ka.ru/ogje-2018-po-himii">himi4ka.ru</a>
+                    <p class="cite_description">
+                        Имеет собственную программу подготовки к экзамену, в которую входит подробное разъяснение
+                        материала и проверочные тесты.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://xn--80aff1fya.xn--p1ai/news/oge_him/2015-05-28-211 ">егеша.рф</a>
+                    <p class="cite_description">
+                        Сайт представляет краткую информацию по всем основным и наиболее важным темам. Под термином
+                        «шпаргалка» здесь подразумевается лаконичная информация, которую легко усвоить). Помните: лучше
+                        каждый день учить понемногу материала и со спокойной душой войти в свою аудиторию, чем
+                        рисковать жизнью, пытаясь взять с собой шпору.
+                    </p>
+                </div>
+                <div class="sub_article">
+                    <a class="cite_name" href="http://85.142.162.126/os/xmodules/qprint/openlogin.php?proj=33B3A93C5A6599124B04FB95616C835B">fipi.ru</a>
+                    <p class="cite_description">
+                        Про сайт ФИПИ, наверное, говорил каждый учитель. Описывать его нет необходимости.
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <article id="lucky_container">
+            <p><a id ="lucky" href="">Мне повезет...</a></p>
+        </article>
+        <script>
+            let countGlobal = 100
+            let slidesCount = 11
+
+            function slide() {
+                let count = countGlobal
+                if (countGlobal < 0) count = -countGlobal
+                if (countGlobal < 10) countGlobal = 100
+
+                slide1.classList.remove("pos" + (count % slidesCount))
+                slide1.classList.remove("pos" + ((count + 2) % slidesCount))
+                slide1.classList.add("pos" + ((count + 1) % slidesCount))
+
+                slide2.classList.remove("pos" + ((count + 1) % slidesCount))
+                slide2.classList.remove("pos" + ((count + 3) % slidesCount))
+                slide2.classList.add("pos" + ((count + 2) % slidesCount))
+
+                slide3.classList.remove("pos" + ((count + 2) % slidesCount))
+                slide3.classList.remove("pos" + ((count + 4) % slidesCount))
+                slide3.classList.add("pos" + ((count + 3) % slidesCount))
+
+                slide4.classList.remove("pos" + ((count + 3) % slidesCount))
+                slide4.classList.remove("pos" + ((count + 5) % slidesCount))
+                slide4.classList.add("pos" + ((count + 4) % slidesCount))
+
+                slide5.classList.remove("pos" + ((count + 4) % slidesCount))
+                slide5.classList.remove("pos" + ((count + 6) % slidesCount))
+                slide5.classList.add("pos" + ((count + 5) % slidesCount))
+                
+                slide6.classList.remove("pos" + ((count + 5) % slidesCount))
+                slide6.classList.remove("pos" + ((count + 7) % slidesCount))
+                slide6.classList.add("pos" + ((count + 6) % slidesCount))
+                
+                slide7.classList.remove("pos" + ((count + 6) % slidesCount))
+                slide7.classList.remove("pos" + ((count + 8) % slidesCount))
+                slide7.classList.add("pos" + ((count + 7) % slidesCount))
+                
+                slide8.classList.remove("pos" + ((count + 7) % slidesCount))
+                slide8.classList.remove("pos" + ((count + 9) % slidesCount))
+                slide8.classList.add("pos" + ((count + 8) % slidesCount))
+
+                slide9.classList.remove("pos" + ((count + 8) % slidesCount))
+                slide9.classList.remove("pos" + ((count + 10) % slidesCount))
+                slide9.classList.add("pos" + ((count + 9) % slidesCount))
+
+                slide10.classList.remove("pos" + ((count + 9) % slidesCount))
+                slide10.classList.remove("pos" + ((count + 11) % slidesCount))
+                slide10.classList.add("pos" + ((count + 10) % slidesCount))
+
+                slide11.classList.remove("pos" + ((count + 10) % slidesCount))
+                slide11.classList.remove("pos" + ((count + 12) % slidesCount))
+                slide11.classList.add("pos" + ((count + 11) % slidesCount))
+            }
+
+            next.addEventListener("click", function (e) {
+                countGlobal--
+                slide()
+            })
+
+            back.addEventListener("click", function (e) {
+                countGlobal++
+                slide()
+            })
+
+            
+            let menu_buttons = document.querySelectorAll('.menu_button')
+            let active_btn =document.getElementById('start');
+            let btn_id = null;
+            menu_buttons.forEach(function(btn){
+                btn.addEventListener('click', function(e){
+                    lucky_container.style.display = 'block';
+                    active_btn.style.display = 'none';
+                    btn_id = parseInt(btn.dataset.subj_id);
+                    active_btn = document.getElementById('subj'+btn_id)
+                    active_btn.style.display = 'block';
+                })
+            })
+
+            let max = 5;
+            let min = 1;
+            let links = [
+                ["https://rus-oge.sdamgia.ru/",
+                "http://4ege.ru/gia-po-russkomu-jazyku/",
+                "https://neznaika.pro/oge/rus_oge/",
+                "http://yagramotniy.ru/samoobuchenie/podgotovka-k-oge",
+                "http://rustutors.ru/oge.html",
+                "http://xn--80aff1fya.xn--p1ai/news/rus_oge/2015-06-02-215",
+                "http://85.142.162.126/os/xmodules/qprint/openlogin.php?proj=2F5EE3B12FE2A0EA40B06BF61A015416"], 
+                //Русский
+                ["https://math-oge.sdamgia.ru/",
+                "http://4ege.ru/gia-matematika/",
+                "https://neznaika.pro/oge/math_oge/",
+                "http://xn--80aff1fya.xn--p1ai/news/gia_mat/2013-02-05-145",
+                "http://85.142.162.126/os/xmodules/qprint/openlogin.php?proj=DE0E276E497AB3784C3FC4CC20248DC0"],
+                 //Математика
+                 ["https://bio-oge.sdamgia.ru/",
+                "http://4ege.ru/gia-po-biologii/",
+                "https://neznaika.pro/oge/bio_oge/"
+                ,"http://xn--80aff1fya.xn--p1ai/news/oge_bio/2016-06-05-241",
+                "http://85.142.162.126/os/xmodules/qprint/index.php?proj=0E1FA4229923A5CE4FC368155127ED90"],
+                 //Биология
+                ["https://en-oge.sdamgia.ru/",
+                "http://4ege.ru/gia-po-inostrannym-jazykam/",
+                "https://neznaika.pro/oge/eng_oge/",
+                "http://zhilina-english.ru/oge/",
+                "http://xn--80aff1fya.xn--p1ai/news/gia_angl/2013-04-26-152",
+                "http://85.142.162.126/os/xmodules/qprint/openlogin.php?proj=8BBD5C99F37898B6402964AB11955663",],
+                 //Английский
+                ["https://phys-oge.sdamgia.ru/",
+                "http://4ege.ru/gia-po-fizike/",
+                "https://neznaika.pro/oge/phys_oge/",
+                "http://xn--80aff1fya.xn--p1ai/news/oge_fiz/2016-06-05-242",
+                "http://85.142.162.126/os/xmodules/qprint/openlogin.php?proj=B24AFED7DE6AB5BC461219556CCA4F9B"],
+                 //Физика
+                ["https://soc-oge.sdamgia.ru/",
+                "http://4ege.ru/gia-po-obwestvoznaniju/",
+                "https://neznaika.pro/oge/obch_oge/",
+                "http://xn--80aff1fya.xn--p1ai/news/ob_oge/2015-05-28-212",
+                "http://85.142.162.126/os/xmodules/qprint/openlogin.php?proj=AE63AB28A2D28E194A286FA5A8EB9A78"],
+                 //Обществознание
+                ["https://lit-oge.sdamgia.ru/",
+                "http://4ege.ru/gia-po-literature/",
+                "https://neznaika.pro/oge/lit_oge/",
+                "http://xn--80aff1fya.xn--p1ai/news/oge_iit/2015-05-28-210",
+                "http://literarus.ru/literatura/oge-po-literature/",
+                "http://85.142.162.126/os/xmodules/qprint/openlogin.php?proj=6B2CD4C77304B2A3478E5A5B61F6899A"],
+                 //Литература
+                ["https://chem-oge.sdamgia.ru/",
+                "http://4ege.ru/gia-po-himii/",
+                "https://neznaika.pro/oge/chem_oge/",
+                "https://himi4ka.ru/ogje-2018-po-himii",
+                "http://xn--80aff1fya.xn--p1ai/news/oge_him/2015-05-28-211",
+                "http://85.142.162.126/os/xmodules/qprint/openlogin.php?proj=33B3A93C5A6599124B04FB95616C835B",
+                "http://85.142.162.126/os/xmodules/qprint/openlogin.php?proj=0FA4DA9E3AE2BA1547B75F0B08EF6445"],
+                 //Химия
+                ["https://hist-oge.sdamgia.ru/",
+                "http://4ege.ru/gia-po-istorii/",
+                "https://neznaika.pro/oge/hist_oge/",
+                "http://xn--80aff1fya.xn--p1ai/news/oge_ist/2016-06-04-239",
+                "http://85.142.162.126/os/xmodules/qprint/openlogin.php?proj=3CBBE97571208D9140697A6C2ABE91A0"],
+                 //История
+                ["https://geo-oge.sdamgia.ru/",
+                "http://4ege.ru/gia-po-geografii/",
+                "https://neznaika.pro/oge/geo_oge/",
+                "http://xn--80aff1fya.xn--p1ai/news/oge_geo/2016-06-04-240"],
+                 //География
+                ["https://inf-oge.sdamgia.ru/",
+                "http://4ege.ru/gia-po-informatike/",
+                "https://neznaika.pro/oge/inf_oge/",
+                "http://xn--80aff1fya.xn--p1ai/news/oge_inf/2016-05-25-238",
+                "http://kpolyakov.spb.ru/school/oge.html",
+                "http://easyinformatics.ru/category/oge",
+                "http://85.142.162.126/os/xmodules/qprint/openlogin.php?proj=74676951F093A0754D74F2D6E7955F06"] 
+                 //Информатика
+            ]
+            function calc_random_subj(max, min){
+                let rand_id = Math.floor(Math.random() * (max - min)) + min;
+                while(!links[btn_id][rand_id]){
+                    rand_id = Math.floor(Math.random() * (max - min)) + min;
+                }
+                return rand_id;
+            }
+            lucky.addEventListener('mouseover', function(e){
+                let rand_id = calc_random_subj(7, 0);
+                lucky.setAttribute('href', links[btn_id][rand_id])
+                console.log(lucky.getAttribute('href'))
+            })
+        </script>
+    </MAIN>
+
+    <footer>
+        <p>Нашли ошибку? Хотите предложить полезный сайт, который можно добавить в список ОГЭ-Помощника?
+            <br>
+            Пишите на почту: <a id="email" href="mailto:belikovgrisha9@gmail.com?subject=Пожелание на счет ОГЭ-Помощника">
+                belikovgrisha9@gmail.com
+            </a>
+        </p>
+    </footer>
+</body>

@@ -1,0 +1,171 @@
+h1 {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 4vh;
+    color: white;
+    text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.692);
+    margin-left: 13vw;
+}
+
+h2 {
+    text-shadow: 0px 0px 3px black;
+    color: snow;
+    font-weight: 500;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(248, 231, 199);
+}
+
+main {
+    text-align: center;
+}
+
+footer {
+    background: rgb(39, 39, 39);
+    padding: 10px;
+    bottom: 0;
+}
+
+header {
+    padding: 10px;
+    background: url('https://www.mgpu.ru/wp-content/uploads/2018/01/books2.jpg') 50%/cover rgb(208, 208, 208);
+}
+
+.circle {
+    vertical-align: top;
+    display: inline-block;;
+    background: url('./logo.png') 50%/cover no-repeat  rgba(224, 224, 224, 0.418);
+    border-radius: 20%;
+    border: 0;
+    width: 8vh;
+    height: 8vh;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.432);
+}
+
+article {
+    background-color: beige;
+    padding-top: 0;
+    width: auto;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-bottom: 10vh;
+    border: 4px solid rgb(122, 122, 115);
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px black;
+    display: none;
+}
+
+.article_toggle_visible {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article_name {
+    width: 100%;
+    background-color: rgb(87, 87, 87);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    box-shadow: 0px 1px 5px rgb(87, 87, 87);
+    margin: 0;
+    font-size: 30px;
+}
+.cite_name:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    border-radius: 50%;
+    left:50%;
+    position:absolute;
+    background-color: rgb(63, 63, 63);
+    transform:translateX(-50%);
+    transition: width .3s ease-in-out;
+}
+
+.cite_name:hover:after,
+.cite_name:focus:after {
+    width: 80%;
+}
+
+footer p {
+    color: rgb(184, 184, 184);
+    font-size: 1.3vh;
+}
+
+.article_text_container {
+    padding: 0;
+}
+
+.sub_article {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.329);
+    padding: 10px;
+}
+
+.cite_name {
+    text-shadow: 0px 0px 25px rgb(105, 105, 105);
+
+    font-weight: 600;
+    color: rgb(63, 63, 63);
+    font-size: 25px;
+    text-decoration-color: rgb(63, 63, 63);
+}
+
+.cite_description {
+    text-align: left;
+}
+
+.menu_opener {
+    height: 5vh;
+    color: white;
+    font-size: 2vh;
+    background: rgb(39, 39, 39);
+    margin: 0;
+    top: 0px;
+}
+
+.menu_button {
+    width: 30%;
+    height: 5vh;
+    display: inline-block;
+    border-radius: 20px;
+    transition: 0.1s;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.menu_button:hover {
+    background-color: rgb(51, 51, 51);
+}
+
+.menu_scroll {
+    width: 8%;
+    display: inline-block;
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+    height: 5vh;
+    background: rgb(39, 39, 39);
+}
+
+.pos0{transform: translateX(-250%); display: none;}
+.pos1{transform: translateX(-250%); display: none;}
+.pos2{transform: translateX(-250%); display: inline-block;}
+.pos3{transform: translateX(-150%); display: inline-block;}
+.pos4{transform: translateX(-50%); display: inline-block;}
+.pos5{transform: translateX(50%); display: inline-block;}
+.pos6{transform: translateX(180%); display: none}
+.pos7{transform: translateX(180%); display: none;}
+.pos8{transform: translateX(180%); display: none;}
+.pos9{transform: translateX(180%); display: none;}
+.pos10{transform: translateX(180%); display: none;}
+
+.filler {
+    height: 5.5vh;
+}
